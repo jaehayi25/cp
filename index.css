@@ -15,7 +15,7 @@ h1 {
 h2 {
     color: rgb(53, 53, 53);
     margin-bottom: 0px;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
 }
 
 .topnav {
@@ -77,4 +77,13 @@ img:hover {
 
 .cell a:hover {
     border-bottom: 1px solid;
+}
+
+.code {
+    margin-left: 1rem;
+    margin-bottom: 0px;
+}
+
+.code pre {
+    margin: 0px;
 }

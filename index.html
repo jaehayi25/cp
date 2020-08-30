@@ -14,6 +14,22 @@
         <div class="content">
         </div>
         <h1>Competitive Programming</h1>
+        <div class="code">
+            <pre>
+int live_life_on_the_edge() {
+    int lo = 0, hi = 1e9; 
+    while (lo &lt hi) {
+        mid = (lo + hi + 1)/2; //mid = courage score
+        if (alive(mid)) {
+            lo = mid;
+        }
+        else { //dead
+            hi = mid-1;
+        }
+    }
+    return lo;
+}</pre>
+        </div>
         <div class="cell">
             <h2>Where I Practice </h2>
             <p>I compete every week on <a href="https://leetcode.com/jaehayi1/" target="_blank">LeetCode</a> </p>
